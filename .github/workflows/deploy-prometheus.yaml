@@ -31,4 +31,7 @@ jobs:
         grafana_datasource_dir: sandbox/observability/grafana/datasources
         prometheus_config: sandbox/observability/prometheus/prometheus.yml
 
-        tf_stack_destroy: true
+        # tf_stack_destroy: true
+        aws_r53_domain_name: bitovi-sandbox.com
+        aws_r53_sub_domain_name: obs
+        aws_r53_create_sub_cert: true
